@@ -10,6 +10,7 @@ class sorting_function {
 };
 
 template<class T>
+
 void sorting_function<T>::insertion_sort(T a[], int size) {
     for (int i = 0; i < size; i++) {
         T key = a[i];
